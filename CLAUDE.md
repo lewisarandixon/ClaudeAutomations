@@ -79,9 +79,9 @@ The system supports event-driven execution via Modal webhooks. Each webhook maps
 - `directives/add_webhook.md` - Complete setup guide
 
 **Endpoints:**
-- `https://nick-90891--claude-orchestrator-list-webhooks.modal.run` - List webhooks
-- `https://nick-90891--claude-orchestrator-directive.modal.run?slug={slug}` - Execute directive
-- `https://nick-90891--claude-orchestrator-test-email.modal.run` - Test email
+- `https://lewiscity10--claude-orchestrator-list-webhooks.modal.run` - List webhooks
+- `https://lewiscity10--claude-orchestrator-directive.modal.run?slug={slug}` - Execute directive
+- `https://lewiscity10--claude-orchestrator-test-email.modal.run` - Test email
 
 **Available tools for webhooks:** `send_email`, `read_sheet`, `update_sheet`
 

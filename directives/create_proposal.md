@@ -124,7 +124,7 @@ description: Create a PandaDoc proposal for a client
        - Brief description of what it accomplishes
        - "Steps:" subheading followed by bullet points (use `<ul>` and `<li>` HTML tags)
      - Closing: "I'll send you a full proposal for the above shortly. Let me know if you have any questions or want to discuss further."
-     - Signature: "Thanks, Nick"
+     - Signature: "Thanks, Lewis"
    - **HTML Formatting Requirements:**
      - Use `mimeType="text/html"` parameter
      - Provide both `body` (plain text) and `htmlBody` (HTML version) parameters

@@ -58,7 +58,7 @@ When Manus finishes (task_stopped, stop_reason: "finish"):
 - TLDR AI newsletter
 
 ### YouTube (Recent Uploads)
-- Nick Saraev, Nate Herk, Matt Wolfe, AI Advantage
+- Nate Herk, Matt Wolfe, AI Advantage
 - Liam Ottley, AI Jason, Skill Leap AI, WorldofAI
 
 ### Reddit (Last 7 Days)

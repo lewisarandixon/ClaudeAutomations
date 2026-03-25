@@ -12,7 +12,7 @@ Scrapes Google search results for local businesses, fetches their websites, extr
 
 **Webhook URL (test mode):**
 ```
-GET https://nicksaraev.app.n8n.cloud/webhook-test/8aee83a4-ae72-4f96-a834-e1c6afd4d080
+GET https://YOUR_N8N_INSTANCE/webhook-test/YOUR_WEBHOOK_ID
 ```
 
 **Production URL:** TBD (deploy workflow to get production webhook)
@@ -105,5 +105,5 @@ Fields below 0.6 confidence are flagged for manual review.
 ## Related Files
 
 - **Output:** [Google SERP Scraping Database](https://docs.google.com/spreadsheets/d/1oWYDtvh8g6A94ubK9FZlLUm1vlb4W3dHcVGFchoVj6U/edit)
-- **Workflow platform:** n8n Cloud (nicksaraev.app.n8n.cloud)
+- **Workflow platform:** n8n Cloud
 - **Scraping service:** Apify (google-search-scraper actor)
