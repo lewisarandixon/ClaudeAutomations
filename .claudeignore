@@ -1,0 +1,26 @@
+# Secrets & credentials — never commit these
+.env
+*.env
+token.json
+google_credentials.json
+credentials.json
+service_account.json
+*_secret.json
+
+# Temp / intermediate files
+.tmp/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

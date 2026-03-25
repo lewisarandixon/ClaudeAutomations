@@ -1,0 +1,37 @@
+{
+  "webhooks": {
+    "create-proposal": {
+      "directive": "create_proposal_webhook",
+      "description": "Generate PandaDoc proposal and send follow-up email",
+      "tools": ["create_proposal", "send_email", "web_fetch"]
+    },
+    "tech-radar-complete": {
+      "script": "tech_radar_research",
+      "description": "Handle Manus completion webhook for Tech Radar research - creates Google Doc, generates podcast, sends Telegram + email notifications"
+    },
+    "lead-ingest": {
+      "script": "lead_funnel_analytics",
+      "description": "Ingest leads from Google Sheet into Airtable with deduplication. Payload: {action: ingest, sheet_id: ...}"
+    },
+    "lead-funnel-report": {
+      "script": "lead_funnel_analytics",
+      "description": "Run lead funnel analytics report. Payload: {action: weekly} or {action: monthly}"
+    },
+    "lead-funnel-manus-complete": {
+      "script": "lead_funnel_analytics",
+      "description": "Handle Manus completion webhook for lead funnel AI insights. Payload: Manus webhook payload with action: manus_complete"
+    },
+    "lead-outreach": {
+      "script": "lead_outreach",
+      "description": "Create draft outreach emails in Outlook. Payload: {action: send, industry: ..., limit: N} or {action: test_auth}"
+    },
+    "investment-research-complete": {
+      "script": "investment_research",
+      "description": "Handle Manus completion webhook for monthly investment research - creates Google Doc, sends Telegram notification"
+    },
+    "manus-complete": {
+      "script": "manus_router",
+      "description": "Unified Manus webhook router. Manus only supports one global webhook — dispatches to the right handler (tech_radar or investment_research) based on which tracker sheet owns the task_id."
+    }
+  }
+}
